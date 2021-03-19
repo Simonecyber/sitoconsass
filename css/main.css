@@ -402,11 +402,6 @@
 }
 
 .contact__list {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-gap: 2rem;
   font-size: 1.5rem;
 }
 
@@ -438,6 +433,8 @@
     font-size: 1.5rem;
   }
   .about-bio {
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 1.5rem;
   }
   .projects__bio-image {
